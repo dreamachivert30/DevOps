@@ -1,6 +1,6 @@
 #!/bin/bash
 # Git Testing
-# Added by Linux user
+# Added by Linux user Testing
 for i in {1..100}
 do
 if [ $(expr $i % 2) -eq 0 ]
