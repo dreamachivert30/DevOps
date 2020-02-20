@@ -1,6 +1,4 @@
 #!/bin/bash
-# Git Testing
-# Added by Linux user Testing
 for i in {1..100}
 do
 if [ $(expr $i % 2) -eq 0 ]
@@ -10,4 +8,8 @@ else
 echo "$i is Odd Number"
 fi
 done
-#End of the program
+
+func(){
+    echo "This is test function F1"
+}
+
