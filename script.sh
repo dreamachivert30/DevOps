@@ -1,6 +1,8 @@
 #!/bin/bash
-# Git Testing
-# Added by Linux user Testing
+#Added for branch creation
+func(){
+echo "This is test function for $i"
+}
 for i in {1..100}
 do
 if [ $(expr $i % 2) -eq 0 ]
@@ -9,5 +11,8 @@ echo "$i is a Even Number"
 else
 echo "$i is Odd Number"
 fi
+func
 done
-#End of the program
+
+
+
